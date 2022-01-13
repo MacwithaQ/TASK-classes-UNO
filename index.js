@@ -49,18 +49,20 @@ class Card {
 
 for (let index = 0; index < 10; index++) {
   cards.push(new Card(`${index}`,"Green"))
+  cards.push(new Card(`${index}`,"Green"))
 }
 for (let index = 0; index < 10; index++) {
+  cards.push(new Card(`${index}`,"Yellow"))
   cards.push(new Card(`${index}`,"Yellow"))
 }
 for (let index = 0; index < 10; index++) {
   cards.push(new Card(`${index}`,"Red"))
+  cards.push(new Card(`${index}`,"Red"))
 }
 for (let index = 0; index < 10; index++) {
   cards.push(new Card(`${index}`,"Blue"))
+  cards.push(new Card(`${index}`,"Blue"))
 }
-
-
 
 /**
  *
